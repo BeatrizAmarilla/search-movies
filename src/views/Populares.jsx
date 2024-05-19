@@ -1,7 +1,17 @@
+import { Typography } from "@mui/material";
+import CardMovies from "../components/CardMovies";
+
 export default function Populares() {
   return (
     <div>
-      <h1>popular</h1>
+      <Typography variant="h3" sx={{
+              display: "flex",
+              justifyContent:"center",
+              mt:"1rem",
+              }}>
+        Peliculas Populares
+      </Typography>
+      <CardMovies/>
     </div>
   )
 }

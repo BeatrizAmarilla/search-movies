@@ -4,6 +4,7 @@ import ContainHome from "./views/ContainHome";
 import UltimosLanzamientos from "./views/UltimosLanzamientos";
 import Populares from "./views/Populares";
 import Buscar  from "./views/Buscar";
+import Footer from "./components/static/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/buscar " element={<Buscar />} />
           <Route path="*" element={<h2>ERROR 404 NOT FOUND</h2>} />
         </Routes>
+        <Footer/>
     </BrowserRouter>
   );
 }

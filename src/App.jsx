@@ -15,8 +15,8 @@ function App() {
           <Route path="/" element={<ContainHome/>} />
           <Route path="/ultimosLanzamientos" element={<UltimosLanzamientos/>} />
           <Route path="/populares" element={<Populares />} />
-          <Route path="/buscar " element={<Buscar />} />
-          <Route path="*" element={<h2>ERROR 404 NOT FOUND</h2>} />
+          <Route path="/Buscar" element={<Buscar />} />
+          {/* <Route path="*" element={<h2>ERROR 404 NOT FOUND</h2>} /> */}
         </Routes>
         <Footer/>
     </BrowserRouter>
